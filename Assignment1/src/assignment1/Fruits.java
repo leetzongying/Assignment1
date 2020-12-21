@@ -42,42 +42,7 @@ public class Fruits {
 		int items = in.nextInt();
 		
 		if(card = false) {
-		switch(items) {
-		case 1:
-			System.out.println("Enter the quantity of apples purchased:");
-			int quantity1 = in.nextInt();
-			
-			double total = price1*quantity1;
-		System.out.println("Total price:" + total);
-		if(total<100) {
-			double discount = total*10/100;
-			System.out.println("Discount total:" + discount);
-			System.out.println("Price to be paid:" + (total - discount));
-		}
-		else if(total>100) {
-			double discount = total*20/100;
-			System.out.println("Discount total:" + discount);
-			System.out.println("Price to be paid:" + (total - discount));
-		}
-		case 2:
-			System.out.println("Enter the quantity of apples purchased:");
-			int quantity1x = in.nextInt();
-			System.out.println("Enter the quantity of oranges purchased:");
-			int quantity2 = in.nextInt();
-			
-			double total1 = (price1*quantity1x) + (price2*quantity2);
-			System.out.println("Total price:" + total1);
-			if(total1<100) {
-				double discount = total1*10/100;
-				System.out.println("Discount total:" + discount);
-				System.out.println("Price to be paid:" + (total1 - discount));
-			}
-			else if(total1>100) {
-				double discount = total1*20/100;
-				System.out.println("Discount total:" + discount);
-				System.out.println("Price to be paid:" + (total1 - discount));
-			}
-		case 3: 
+		
 			System.out.println("Enter the quantity of apples purchased:");
 			int quantity1y = in.nextInt();
 			System.out.println("Enter the quantity of oranges purchased:");
@@ -99,45 +64,9 @@ public class Fruits {
 			}
 			
 		
-	}}
+	}
 		else if(card = true) {
-			switch(items) {
-			case 1:
-				System.out.println("Enter the quantity of apples purchased:");
-				int quantity1 = in.nextInt();
-				
-				double total = price1*quantity1;
-			System.out.println("Total price:" + total);
-			if(total<100) {
-				double discount = total*15/100;
-				System.out.println("Discount total:" + discount);
-				System.out.println("Price to be paid:" + (total - discount));
-			}
-			else if(total>100) {
-				double discount = total*25/100;
-				System.out.println("Discount total:" + discount);
-				System.out.println("Price to be paid:" + (total - discount));
-			}
-			case 2:
-				System.out.println("Enter the quantity of apples purchased:");
-				int quantity1x = in.nextInt();
-				System.out.println("Enter the quantity of oranges purchased:");
-				int quantity2 = in.nextInt();
-				
-				double total1 = (price1*quantity1x) + (price2*quantity2);
-				System.out.println("Total price:" + total1);
-				if(total1<100) {
-					double discount = total1*15/100;
-					System.out.println("Discount total:" + discount);
-					System.out.println("Price to be paid:" + (total1 - discount));
-				}
-				else if(total1>100) {
-					double discount = total1*25/100;
-					System.out.println("Discount total:" + discount);
-					System.out.println("Price to be paid:" + (total1 - discount));
-				}
-			case 3: 
-				System.out.println("Enter the quantity of apples purchased:");
+			System.out.println("Enter the quantity of apples purchased:");
 				int quantity1y = in.nextInt();
 				System.out.println("Enter the quantity of oranges purchased:");
 				int quantity2y = in.nextInt();
@@ -158,7 +87,7 @@ public class Fruits {
 				}
 			
 		}
-		}
+		
 		in.close();
 
 }
